@@ -180,7 +180,7 @@ class Engine(Board, Spaceship, Missile, Alien):
 
             self.board.render()
 
-            print 'YOUR SCORE:', self.score
+            print('YOUR SCORE:', self.score)
 
             inp = getinp()
 
